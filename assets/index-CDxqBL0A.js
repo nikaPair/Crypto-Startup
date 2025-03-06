@@ -449,7 +449,7 @@ Error generating stack: `+i.message+`
     padding: 5rem 2rem 2rem;
     flex-direction: column;
     align-items: center;
-
+    height: 100vh;
     @media (max-width: 1024px) {
         display: flex;
     }
@@ -493,7 +493,6 @@ Error generating stack: `+i.message+`
     }
 `,V6=B(Dt.div)`
     display: none;
-
     @media (min-width: 768px) {
         display: block;
     }
