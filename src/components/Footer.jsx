@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import {
     FaTwitter,
     FaTelegram,

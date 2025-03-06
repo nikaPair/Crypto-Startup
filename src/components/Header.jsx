@@ -136,7 +136,7 @@ const MobileMenu = styled(motion.div)`
     padding: 5rem 2rem 2rem;
     flex-direction: column;
     align-items: center;
-
+    height: 100vh;
     @media (max-width: 1024px) {
         display: flex;
     }
@@ -188,7 +188,6 @@ const MobileConnectButton = styled.button`
 
 const WalletWrapper = styled(motion.div)`
     display: none;
-
     @media (min-width: 768px) {
         display: block;
     }
